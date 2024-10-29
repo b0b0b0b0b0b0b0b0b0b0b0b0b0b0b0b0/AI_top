@@ -1,46 +1,50 @@
 messages:
   ask-success: |
     <gradient:#6A0DAD:#FF4500><bold>──────────✧･ﾟ: *✧･ﾟ:* ──────────</bold></gradient>
-    <gradient:#FF6347:#8B0000><bold>Ответ от Нейронки для <player>:</bold></gradient>
-    <hover:show_text:'<gray>Сгенерировано на основе ваших данных и моей беспощадной логики.'>
+    <gradient:#FF6347:#8B0000><bold>Response from AI for <player>:</bold></gradient>
+    <hover:show_text:'<gray>Generated based on your data and my ruthless logic.'>
       <gradient:#8A2BE2:#FF1493><italic><response></italic></gradient>
     </hover>
     <gradient:#6A0DAD:#FF4500><bold>──────────────────────────</bold></gradient>
 
   reload-success: |
     <newline>
-    <gradient:#7FFF00:#32CD32><bold>✅ Конфигурация успешно перезагружена!</bold></gradient>
-    <gray><italic>Все изменения применены. Удачи в игре!</italic></gray>
+    <gradient:#7FFF00:#32CD32><bold>✅ Configuration reloaded successfully!</bold></gradient>
+    <gray><italic>All changes applied. Good luck in the game!</italic></gray>
     <newline>
 
   no-permission: |
     <newline>
-    <red><bold>⛔ У вас нет прав на выполнение этой команды!</bold></red>
-    <hover:show_text:'<gray>Обратитесь к администратору для получения доступа.'>
-    <dark_gray>[Подробнее]</dark_gray></hover>
+    <red><bold>⛔ You don't have permission to execute this command!</bold></red>
+    <hover:show_text:'<gray>Contact an administrator to request access.'>
+    <dark_gray>[More Info]</dark_gray></hover>
     <newline>
 
   unknown-command: |
     <newline>
-    <gradient:#FF4500:#FFD700><bold>❓ Неизвестная команда!</bold></gradient>
-    <hover:show_text:'<gray>Проверьте команду или используйте /help для помощи.'>
-    <dark_gray>[Подсказка]</dark_gray></hover>
+    <gradient:#FF4500:#FFD700><bold>❓ Unknown command!</bold></gradient>
+    <hover:show_text:'<gray>Check the command or use /help for assistance.'>
+    <dark_gray>[Hint]</dark_gray></hover>
     <newline>
+
   error-occurred: |
     <newline>
-    <red><bold>⚠️ Произошла ошибка!</bold></red>
-    <hover:show_text:'<gray>Свяжитесь с администратором или разработчиком.'>
-    <dark_red>[Подробнее]</dark_red></hover>
+    <red><bold>⚠️ An error has occurred!</bold></red>
+    <hover:show_text:'<gray>Contact an administrator or developer.'>
+    <dark_red>[More Info]</dark_red></hover>
     <newline>
+
   cooldown: |
     <newline>
-    <yellow><bold>⏳ Подождите ещё <time> секунд перед следующим запросом.</bold></yellow>
+    <yellow><bold>⏳ Please wait <time> seconds before making another request.</bold></yellow>
     <newline>
+
   usage-ask: |
     <newline>
-    <gradient:#7FFFD4:#4682B4><bold>Использование:</bold> <white>/ask [вопрос]</white></gradient>
+    <gradient:#7FFFD4:#4682B4><bold>Usage:</bold> <white>/ask [question]</white></gradient>
     <newline>
+
   usage-ai: |
     <newline>
-    <gradient:#FFD700:#FF8C00><bold>Использование:</bold> <white>/ai [reload]</white></gradient>
+    <gradient:#FFD700:#FF8C00><bold>Usage:</bold> <white>/ai [reload]</white></gradient>
     <newline>
