@@ -1,0 +1,6 @@
+name: AI-top
+version: '${project.version}'
+main: com.bobobo.plugins.aitop.AI_top
+api-version: '1.16'
+commands:
+  ai:
